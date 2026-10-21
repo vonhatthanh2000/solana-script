@@ -1,0 +1,16 @@
+{
+  "cluster": "devnet",
+  "rpc": "https://api.devnet.solana.com",
+  "programId": "Gx82CdkxU4X6HYiXJXY5MUwAWUfwYbA13Q1Jbobg9Fst",
+  "networkId": 0,
+  "tokenProgram": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+  "mint": "Ex6Bkm2vTVmrbdn74iYjigzpVYhPjoxQVEnBPm9MEP7F",
+  "decimals": 6,
+  "mintAuthority": "Gz9rebtErdjUqnuSFXaAQtiG61EW85nn7to7hbNuwhpE",
+  "payerAta": "2RrDQ3wgrXhMXFzZjRzN36DKpHBSqPUDArxWfkiAuVD4",
+  "space": "HzHnZAue9fx2aCmFowxAx57PPPCtZzQ65vhCbWbeKvM8",
+  "spaceAta": "8fkVLwVoqXyfhbhdAdwVNpsDnj6C2myb1XwDmKorpkPP",
+  "recipientAtas": {
+    "7YgYaET8SGkbynzAb61jH8fGZXMxU57tnspvPp9MreiC": "TARGqJoZMfTvzv17djQvto8vb4o95uVW9sD9TGbsNqq"
+  }
+}
