@@ -23,6 +23,18 @@ npm run mint
 
 This creates a new mint (classic SPL Token, 6 decimals) and mints 1,000,000 tokens to the payer. The result is saved to `mint.devnet.json`, and the script prints an Explorer link.
 
+### Add a token name and symbol
+
+Attach Metaplex metadata to the mint saved in `mint.devnet.json`:
+
+```bash
+npm run metadata
+```
+
+The defaults are `Devnet USDT` and `dUSDT`. Override them with `TOKEN_NAME` and `TOKEN_SYMBOL`; optionally set `METADATA_URI` to an off-chain JSON metadata URL. You can target another mint with `MINT_ADDRESS`.
+
+This is a metadata-only command: it does not create a mint or issue more tokens. It requires the mint-authority keypair and refuses to overwrite an existing metadata account.
+
 **Payer keypair.** The script uses the first keypair file it finds:
 
 1. `PAYER_KEYPAIR`

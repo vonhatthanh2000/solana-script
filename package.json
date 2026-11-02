@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "typecheck": "tsc",
     "mint": "tsx mint-test-token.ts",
+    "metadata": "tsx set-token-metadata.ts",
     "generate-keys": "tsx generate-backend-keys.ts"
   },
   "keywords": [],
@@ -14,6 +15,7 @@
   "license": "ISC",
   "type": "module",
   "dependencies": {
+    "@metaplex-foundation/mpl-token-metadata": "^2.13.0",
     "@solana/spl-token": "^0.4.13",
     "@solana/web3.js": "^1.98.4",
     "bs58": "^6.0.0"
